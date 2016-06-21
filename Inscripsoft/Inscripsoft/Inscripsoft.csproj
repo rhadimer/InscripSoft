@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95F377D4-F51D-4E38-8A30-DB56E194FA01}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inscripsoft</RootNamespace>
+    <AssemblyName>Inscripsoft</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\User\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Inscripsoft.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1385241727_17897.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F9854B44A0AFF96395F14C0090A437E9CF49DE12</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Inscripsoft_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asignaturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asignaturas.Designer.cs">
+      <DependentUpon>Asignaturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aulas.Designer.cs">
+      <DependentUpon>Aulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conceptos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conceptos.Designer.cs">
+      <DependentUpon>Conceptos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaAsignaturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaAsignaturas.Designer.cs">
+      <DependentUpon>ConsultaAsignaturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaAulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaAulas.Designer.cs">
+      <DependentUpon>ConsultaAulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaEstudiantes.Designer.cs">
+      <DependentUpon>ConsultaEstudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaProfesores.Designer.cs">
+      <DependentUpon>ConsultaProfesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaSecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaSecciones.Designer.cs">
+      <DependentUpon>ConsultaSecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copia de SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copia de SplashScreen.Designer.cs">
+      <DependentUpon>Copia de SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosEstudiantes.Designer.cs">
+      <DependentUpon>DatosEstudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosProfesores.Designer.cs">
+      <DependentUpon>DatosProfesores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inscripcion.Designer.cs">
+      <DependentUpon>Inscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagos.Designer.cs">
+      <DependentUpon>Pagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secciones.Designer.cs">
+      <DependentUpon>Secciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VariablesAsignaturas.cs" />
+    <EmbeddedResource Include="Asignaturas.resx">
+      <DependentUpon>Asignaturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aulas.resx">
+      <DependentUpon>Aulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conceptos.resx">
+      <DependentUpon>Conceptos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaAsignaturas.resx">
+      <DependentUpon>ConsultaAsignaturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaAulas.resx">
+      <DependentUpon>ConsultaAulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaEstudiantes.resx">
+      <DependentUpon>ConsultaEstudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaProfesores.resx">
+      <DependentUpon>ConsultaProfesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaSecciones.resx">
+      <DependentUpon>ConsultaSecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copia de SplashScreen.resx">
+      <DependentUpon>Copia de SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosEstudiantes.resx">
+      <DependentUpon>DatosEstudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosProfesores.resx">
+      <DependentUpon>DatosProfesores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inscripcion.resx">
+      <DependentUpon>Inscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagos.resx">
+      <DependentUpon>Pagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Secciones.resx">
+      <DependentUpon>Secciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Inscripsoft_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1385241727_17897.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

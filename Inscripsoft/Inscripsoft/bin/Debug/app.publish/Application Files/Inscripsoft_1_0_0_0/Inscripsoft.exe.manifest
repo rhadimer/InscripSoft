@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Inscripsoft.exe" version="1.0.0.0" publicKeyToken="063acee2e067af0b" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="1385241727_17897.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Inscripsoft" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Inscripsoft.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opciones del manifiesto de Control de cuentas de usuario
+             Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+             nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            La especificación del nodo requestedExecutionLevel deshabilitará la virtualización de archivos y del Registro..
+            Si desea usar la virtualización de archivos y del Registro para la compatibilidad 
+            con versiones anteriores, elimine el nodo requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Inscripsoft.exe" size="1738752">
+      <assemblyIdentity name="Inscripsoft" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lN4LRhXcm8cLrNbvas2JkXO1omc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1385241727_17897.ico" size="104214">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OzWWlHaS7wvTjOP3P1gj2X2jX8Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Inscripsoft.exe.config" size="77">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>w7WNgu5MxCvL4DAgISBxgwmhDzU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Lista de todas las versiones de Windows con las que esta aplicación está diseñada para funcionar. Windows seleccionará automáticamente el entorno de mayor compatibilidad.-->
+      <!-- Si la aplicación está diseñada para funcionar con Windows 7, quite los comentarios del siguiente nodo supportedOS-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=User-PC\User" issuerKeyHash="5e6fccf4fb9bbe5cf3a825908f0a02bbd9c10ae3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>glvI3VNeBvmw/7oRARafCZAQJ/s=</DigestValue></Reference></SignedInfo><SignatureValue>pWSPauNOiWfjpp6kNSGkaMKJvDa1b0PvnePMzGFN/KQ89auwn3i+qnFLcJ1IQiKgMI3oHZ1cHn9OboTW9h2dxaq1l8yWKafqAUhdMDg3uCv9ikf44dBxvKlKSai50mMP1N7a5q5LXcs3h+4bEJrpPGt1Z5G7BLl1YlW8WpbTDs8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>y0nT+64d2lP/Ozzb3/FaWAnBNqDdYkW4HkY5SlsD4WNWTTgUqZ6f/iGZWOqdLL0uc3HOvVD21zDkdoXoHlJsTPJRAyk2DSiJA+56OuE+//x68VeBFJtZ6ut83CfFeHu4lhS+m+dh2E9PmeskARbvpF4VP+B0jjVoQjTPnsmrBiM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fb271090099f160111baffb0f9065e53ddc85b82" Description="" Url=""><as:assemblyIdentity name="Inscripsoft.exe" version="1.0.0.0" publicKeyToken="063acee2e067af0b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=User-PC\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>C4/FZi57wQV85QMvEJD2IvuTnMI=</DigestValue></Reference></SignedInfo><SignatureValue>KbO8Hit47Ox8CHEXanPGjIYObS3g1poZUDGOfaYJUkk0iP7pmWADACny+f7FSZRE3EbN/5FJvcGuVon0qWViL675aBol2R4NLh2q9lGs5hRAoVid1RYWwV69hSOuUfIjuG7wOON/QxwXBxnI+803nkiyXV2PkI38xUvOAYq/B10=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>y0nT+64d2lP/Ozzb3/FaWAnBNqDdYkW4HkY5SlsD4WNWTTgUqZ6f/iGZWOqdLL0uc3HOvVD21zDkdoXoHlJsTPJRAyk2DSiJA+56OuE+//x68VeBFJtZ6ut83CfFeHu4lhS+m+dh2E9PmeskARbvpF4VP+B0jjVoQjTPnsmrBiM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQI4e+TuJXvqdERAmwUPZOsjANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAVQBzAGUAcgAtAFAAQwBcAFUAcwBlAHIwHhcNMTQwNDA1MTczMjUxWhcNMTUwNDA1MjMzMjUxWjAjMSEwHwYDVQQDHhgAVQBzAGUAcgAtAFAAQwBcAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMtJ0/uuHdpT/zs829/xWlgJwTag3WJFuB5GOUpbA+FjVk04FKmen/4hmVjqnSy9LnNxzr1Q9tcw5HaF6B5SbEzyUQMpNg0oiQPuejrhPv/8evFXgRSbWerrfNwnxXh7uJYUvpvnYdhPT5nrJAEW76ReFT/gdI41aEI0z57JqwYjAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAcWjCBfTBspkCUDbTDMzxErP+JtZQwsiNGKJ8KUCAtSg7SdYrwRcPwGMRuAXIvOcw4wPUGtjKZlCloc62c/NIph2NBMm7O+J5LdUuzLEqFSn8N9XvWZDq1kv+zqhOg1N9YLgaZjTWeYUcJeHD9XcsrfNaqisFnzwLncIN0HOtfNk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

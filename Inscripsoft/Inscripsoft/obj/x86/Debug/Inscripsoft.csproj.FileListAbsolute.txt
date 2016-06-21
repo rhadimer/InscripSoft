@@ -1,0 +1,56 @@
+c:\users\user\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.exe
+c:\users\user\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.pdb
+c:\users\user\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Properties.Resources.resources
+c:\users\user\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.exe
+c:\users\user\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.pdb
+c:\users\user\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.InscripSoft.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.DatosEstudiantes.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.DatosProfesores.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Asignaturas.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Aulas.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Inscripcion.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Secciones.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Pagos.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Conceptos.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaEstudiantes.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaProfesores.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaAsignaturas.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaAulas.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaSecciones.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.exe.config
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.SplashScreen1.resources
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.exe.manifest
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.application
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.TrustInfo.xml
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.exe.manifest
+C:\Users\User\documents\visual studio 2010\Projects\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.application
+M:\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.exe.config
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.exe
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.pdb
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.csprojResolveAssemblyReference.cache
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Asignaturas.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Aulas.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Conceptos.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaAsignaturas.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaAulas.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaEstudiantes.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaProfesores.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.ConsultaSecciones.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.SplashScreen1.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.DatosEstudiantes.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.DatosProfesores.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.InscripSoft.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Inscripcion.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Pagos.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Properties.Resources.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.Secciones.resources
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.csproj.GenerateResource.Cache
+M:\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.exe.manifest
+M:\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.application
+M:\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.exe
+M:\Inscripsoft\Inscripsoft\bin\Debug\Inscripsoft.pdb
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.TrustInfo.xml
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.exe.manifest
+M:\Inscripsoft\Inscripsoft\obj\x86\Debug\Inscripsoft.application
